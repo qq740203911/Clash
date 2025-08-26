@@ -16,7 +16,7 @@ DOMAIN-KEYWORD,userscript.
 DOMAIN-KEYWORD,greasyfork.
 
 #圈x
-DOMAIN-KEYWORD,quantumult.,其他
+DOMAIN-KEYWORD,quantumult.
 #GEOIP
-DOMAIN-KEYWORD,jsdelivr.,其他
-DOMAIN-SUFFIX,maxmind.com,其他
+DOMAIN-KEYWORD,jsdelivr.
+DOMAIN-SUFFIX,maxmind.com
