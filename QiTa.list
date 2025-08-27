@@ -14,3 +14,9 @@ DOMAIN-KEYWORD,xbookcn.
 DOMAIN-KEYWORD,tampermonkey.
 DOMAIN-KEYWORD,userscript.
 DOMAIN-KEYWORD,greasyfork.
+
+#圈x
+DOMAIN-KEYWORD,quantumult.
+#GEOIP
+DOMAIN-KEYWORD,jsdelivr.
+DOMAIN-SUFFIX,maxmind.com
