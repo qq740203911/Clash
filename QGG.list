@@ -1,8 +1,4 @@
 #番茄去广告
-DOMAIN,mi.gdt.qq.com
-DOMAIN,mobads.baidu.com
-DOMAIN,open.e.kuaishou.com
-
 #番茄小说 拦截广告 图片/视频 加载，去广告成功就不需要了
 DOMAIN,p3-ad-sign.byteimg.com
 
