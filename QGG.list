@@ -23,7 +23,7 @@ DOMAIN,mobads.baidu.com
 DOMAIN,open.e.kuaishou.com
 DOMAIN-KEYWORD,.gdt.qq.com
 
-#拦截广告视频加载，上面去广告成功就不需要了
+#拦截千阅广告视频加载，上面去广告成功就不需要了
 #DOMAIN,pgdt.ugdtimg.com
 
 #不清楚下载的什么，一直加缓存
