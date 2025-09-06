@@ -2,7 +2,6 @@
 #番茄小说 拦截广告 图片/视频 加载，去广告成功就不需要了
 DOMAIN,p3-ad-sign.byteimg.com
 
-DOMAIN,tnc0-alisc1.zijieapi.com
 DOMAIN-KEYWORD,zijieapi.com
 
 DOMAIN-KEYWORD,-lf.fqnovel.com
