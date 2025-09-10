@@ -1,15 +1,3 @@
 # DOMAIN,
 # DOMAIN-SUFFIX,
 # DOMAIN-KEYWORD,
-
-#千阅去广告
-DOMAIN,mobads.baidu.com
-DOMAIN,open.e.kuaishou.com
-DOMAIN-KEYWORD,.gdt.qq.com
-
-#千阅 拦截广告视频加载，上面去广告成功就不需要了
-DOMAIN,pgdt.ugdtimg.com
-
-#不清楚下载的什么，一直加缓存
-DOMAIN-KEYWORD,-ad.adkwai.com
-DOMAIN-KEYWORD,-ad.adukwai.com
