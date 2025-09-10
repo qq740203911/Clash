@@ -1,20 +1,6 @@
-#番茄去广告
-#番茄小说 拦截广告 图片/视频 加载，去广告成功就不需要了
-DOMAIN,p3-ad-sign.byteimg.com
-
-DOMAIN-KEYWORD,zijieapi.com
-
-DOMAIN-KEYWORD,-lf.fqnovel.com
-DOMAIN-KEYWORD,-hl.fqnovel.com
-
-DOMAIN-KEYWORD,fqnovelvod.com
-
-DOMAIN-KEYWORD,-sdk-toutiao
-DOMAIN-KEYWORD,toutiaocloud.
-DOMAIN-KEYWORD,pglstatp-toutiao.com
-
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,isnssdk.com
+# DOMAIN,
+# DOMAIN-SUFFIX,
+# DOMAIN-KEYWORD,
 
 #千阅去广告
 DOMAIN,mobads.baidu.com
