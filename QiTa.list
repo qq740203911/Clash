@@ -21,6 +21,8 @@ DOMAIN-KEYWORD,greasyfork.
 
 #圈x
 DOMAIN-KEYWORD,quantumult.
+#Loon
+DOMAIN-KEYWORD,nsloon.
 #GEOIP
 DOMAIN-KEYWORD,jsdelivr.
 DOMAIN-SUFFIX,maxmind.com
