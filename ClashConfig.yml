@@ -26,6 +26,7 @@ dns:
      - 'localhost.sec.qq.com'
      - 'localhost.ptlogin2.qq.com'
      - 'jsreport.qq.com'
+     - 'httpring.qq.com'
      
      - 'localhost.work.weixin.qq.com'
      - 'localhost.weixin.qq.com'
