@@ -45,3 +45,13 @@ dns:
     ipcidr:
      - 240.0.0.0/4
      - 0.0.0.0/32
+
+  #解决 快捷登录 只能扫码的问题
+  fake-ip-filter: 
+   - 'localhost.sec.qq.com'
+   - 'localhost.ptlogin2.qq.com'
+   
+   - 'localhost.work.weixin.qq.com'
+   - 'localhost.weixin.qq.com'
+   
+   - 'localhost.pan.baidu.com'
