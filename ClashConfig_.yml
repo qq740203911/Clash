@@ -47,7 +47,7 @@ dns:
      - 0.0.0.0/32
 
   #解决 快捷登录 只能扫码的问题
-  fake-ip-filter: 
+  fake-ip-filter:
    - 'localhost.sec.qq.com'
    - 'localhost.ptlogin2.qq.com'
    
