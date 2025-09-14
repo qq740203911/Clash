@@ -14,7 +14,7 @@ clash-for-android:
 dns:
     enable: true
     ipv6: true
-    default-nameserver: [223.5.5.5, 119.29.29.29, 180.76.76.76, 223.6.6.6, 119.28.28.28]
+    # default-nameserver: [223.5.5.5, 119.29.29.29, 180.76.76.76, 223.6.6.6, 119.28.28.28]
     fake-ip-range: 198.18.0.1/16
     use-hosts: true
     nameserver: ['udp://query.xiaohu.buzz:55553', 'udp://3.112.192.99:55553', 'udp://146.190.131.173:55553', 'udp://192.155.81.6:1053', 'tcp://query.xiaohu.buzz:55553', 'tcp://3.112.192.99:55553', 'tcp://146.190.131.173:55553', 'tcp://192.155.81.6:1053']
