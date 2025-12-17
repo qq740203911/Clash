@@ -27,3 +27,6 @@ DOMAIN-KEYWORD,nsloon.
 #GEOIP
 DOMAIN-KEYWORD,jsdelivr.
 DOMAIN-SUFFIX,maxmind.com
+
+#OpenClash
+DOMAIN-SUFFIX,metacubex.one
