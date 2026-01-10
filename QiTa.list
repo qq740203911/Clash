@@ -30,3 +30,6 @@ DOMAIN-SUFFIX,maxmind.com
 
 #OpenClash
 DOMAIN-SUFFIX,metacubex.one
+
+#Notepad ++
+DOMAIN-SUFFIX,notepad-plus-plus.org
