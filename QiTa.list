@@ -10,11 +10,12 @@ DOMAIN-SUFFIX,xn--9kqt27k.com
 #V2EX技术社区
 DOMAIN-SUFFIX,v2ex.com
 
-DOMAIN-KEYWORD,.metacubex.
-
-#游戏下载网站
+#游戏相关网站
 DOMAIN-SUFFIX,fitgirl-repacks.site
 DOMAIN-SUFFIX,dodi-repacks.site
+DOMAIN-SUFFIX,riotpixels.com
+
+DOMAIN-KEYWORD,.metacubex.
 
 DOMAIN-SUFFIX,XVideos.com
 DOMAIN-SUFFIX,Pornhub.com
