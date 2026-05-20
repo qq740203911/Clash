@@ -7,6 +7,9 @@ DOMAIN-KEYWORD,.huyun.
 #虎云（中文）
 DOMAIN-SUFFIX,xn--9kqt27k.com
 
+#AI模型库
+DOMAIN-SUFFIX,huggingface.co
+
 #V2EX技术社区
 DOMAIN-SUFFIX,v2ex.com
 
