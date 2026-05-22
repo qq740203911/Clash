@@ -7,9 +7,6 @@ DOMAIN-KEYWORD,.huyun.
 #虎云（中文）
 DOMAIN-SUFFIX,xn--9kqt27k.com
 
-#AI模型库
-DOMAIN-SUFFIX,huggingface.co
-
 #V2EX技术社区
 DOMAIN-SUFFIX,v2ex.com
 
@@ -22,6 +19,9 @@ DOMAIN-SUFFIX,riotpixels.com
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditstatic.com
 
+#AI模型库
+DOMAIN-SUFFIX,huggingface.co
+
 DOMAIN-SUFFIX,XVideos.com
 DOMAIN-SUFFIX,Pornhub.com
 DOMAIN-SUFFIX,t66y.com
@@ -29,12 +29,6 @@ DOMAIN-KEYWORD,xbookcn.
 
 #Clash
 DOMAIN-KEYWORD,.metacubex.
-
-#油猴
-DOMAIN-KEYWORD,tampermonkey.
-DOMAIN-KEYWORD,userscript.
-DOMAIN-KEYWORD,greasyfork.
-
 #圈x
 DOMAIN-KEYWORD,quantumult.
 #Loon
@@ -43,8 +37,10 @@ DOMAIN-KEYWORD,nsloon.
 DOMAIN-KEYWORD,jsdelivr.
 DOMAIN-SUFFIX,maxmind.com
 
-#OpenClash
-DOMAIN-SUFFIX,metacubex.one
+#油猴
+DOMAIN-KEYWORD,tampermonkey.
+DOMAIN-KEYWORD,userscript.
+DOMAIN-KEYWORD,greasyfork.
 
 #Notepad ++
 DOMAIN-SUFFIX,notepad-plus-plus.org
