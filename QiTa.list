@@ -18,12 +18,17 @@ DOMAIN-SUFFIX,fitgirl-repacks.site
 DOMAIN-SUFFIX,dodi-repacks.site
 DOMAIN-SUFFIX,riotpixels.com
 
-DOMAIN-KEYWORD,.metacubex.
+#Reddit
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditstatic.com
 
 DOMAIN-SUFFIX,XVideos.com
 DOMAIN-SUFFIX,Pornhub.com
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-KEYWORD,xbookcn.
+
+#Clash
+DOMAIN-KEYWORD,.metacubex.
 
 #油猴
 DOMAIN-KEYWORD,tampermonkey.
