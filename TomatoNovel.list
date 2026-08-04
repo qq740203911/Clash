@@ -1,0 +1,75 @@
+# 去广告 直连
+# DOMAIN-WILDCARD,p*-reading-sign.fqnovelpic.com,全球直连
+# DOMAIN-WILDCARD,p*-webcast-sign.douyinpic.com,全球直连
+# DOMAIN-WILDCARD,pull-*.douyincdn.com,全球直连
+# host-suffix,snssdk.com,全球直连
+# host-suffix,lf-normal-gr-sourcecdn.bytegecko.com,全球直连
+
+
+# > TomatoNovel 番茄小说
+
+# >> Main Domain Ads
+DOMAIN-WILDCARD,frontier*-toutiao-lf.fqnovel.com,reject
+DOMAIN-WILDCARD,log*-applog-*.fqnovel.com,reject
+DOMAIN-WILDCARD,lf*-reading.fqnovel.com,reject
+DOMAIN-WILDCARD,mon*-misc-lf.fqnovel.com,reject
+DOMAIN-WILDCARD,rtlog*-applog-*.fqnovel.com,reject
+DOMAIN-WILDCARD,lf*-reading.fqnovelpic.com,reject
+# DOMAIN-WILDCARD,p*-reading-sign.fqnovelpic.com,reject     全球直连
+DOMAIN-WILDCARD,v*-novelapp.fqnovelvod.com,reject
+
+# >> Toutiao & Douyin ADs
+DOMAIN,toutiao-frontier.snssdk.com,reject
+DOMAIN,api-access.pangolin-sdk-toutiao.com,reject
+DOMAIN-WILDCARD,api-access.pangolin-sdk-toutiao*.com,reject
+DOMAIN-WILDCARD,lf*-ad-union-sdk.pglstatp-toutiao.com,reject
+DOMAIN-WILDCARD,p*-ad-sign.byteimg.com,reject
+# DOMAIN-WILDCARD,p*-novel.byteimg.com,reject // 可疑域名，待验证
+# DOMAIN-WILDCARD,p*-webcast-sign.douyinpic.com,reject
+# DOMAIN-WILDCARD,pull-*.douyincdn.com,reject     全球直连
+
+# >> Zijie AD API
+DOMAIN-WILDCARD,abtest*-misc-lf.zijieapi.com,reject
+DOMAIN-WILDCARD,ads*-normal-*.zijieapi.com,reject
+DOMAIN-WILDCARD,bsync*-normal-lf.zijieapi.com,reject
+DOMAIN-WILDCARD,mssdk*-normal-lf.zijieapi.com,reject
+DOMAIN-WILDCARD,polaris*-normal-lf.zijieapi.com,reject
+DOMAIN-WILDCARD,tnc*-aliec*.zijieapi.com,reject
+DOMAIN-WILDCARD,tnc*-alisc*.zijieapi.com,reject
+DOMAIN,imapi5-oth-If.zijieapi.com,reject
+DOMAIN,rtapplog.zijieapi.com,reject
+
+# >> SNS SDK
+# DOMAIN,i.snssdk.com,reject
+# DOMAIN,i-lq.snssdk.com,reject
+# DOMAIN,is.snssdk.com,reject
+# DOMAIN,mcs.snssdk.com,reject
+# DOMAIN,vas-lf-x.snssdk.com,reject
+# DOMAIN-WILDCARD,tnc*-bjlgy.snssdk.com,reject
+
+# >> Other Domains
+DOMAIN-WILDCARD,*novelapp.ixigua.com,reject
+DOMAIN-WILDCARD,*default.ixigua.com,reject
+DOMAIN-WILDCARD,lf*-cdn-tos-ncdn.bytegecko.com,reject
+DOMAIN,activity-ag.awemeughun.com,reject
+DOMAIN,activity-zhendingtech.com,reject
+DOMAIN,dig.bdurl.net,reject
+DOMAIN,msync-im1-vip6-std.easemob.com,reject
+# DOMAIN,security-lq.snssdk.com,reject
+DOMAIN,sf3-ttcdn-tos.pstatp.com,reject
+host-suffix,lf-normal-gr-sourcecdn.bytegecko.com,reject
+
+# >> Other AD SDK
+# DOMAIN,mktm.jd.com,reject
+# DOMAIN,adim.pinduoduo.com,reject
+# DOMAIN,apm-m.pinduoduo.com,reject
+# DOMAIN,shark-tracer.netease.com,reject
+
+
+# >> IP-CIDR
+# ip-cidr,49.71.37.101/32,reject
+# ip-cidr,117.71.105.23/32,reject
+# ip-cidr,218.94.207.205/32,reject
+# ip-cidr,117.92.229.188/32,reject
+# ip-cidr,101.36.166.16/32,reject
+# ip-cidr,180.96.2.114/32,reject
