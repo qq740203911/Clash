@@ -15,18 +15,18 @@ DOMAIN-WILDCARD,lf*-reading.fqnovel.com,reject
 DOMAIN-WILDCARD,mon*-misc-lf.fqnovel.com,reject
 DOMAIN-WILDCARD,rtlog*-applog-*.fqnovel.com,reject
 DOMAIN-WILDCARD,lf*-reading.fqnovelpic.com,reject
-# DOMAIN-WILDCARD,p*-reading-sign.fqnovelpic.com,reject     全球直连
+# DOMAIN-WILDCARD,p*-reading-sign.fqnovelpic.com,reject  //广告与封面混用域名，无法屏蔽
 DOMAIN-WILDCARD,v*-novelapp.fqnovelvod.com,reject
 
 # >> Toutiao & Douyin ADs
 DOMAIN,toutiao-frontier.snssdk.com,reject
-DOMAIN,api-access.pangolin-sdk-toutiao.com,reject
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com,reject
 DOMAIN-WILDCARD,api-access.pangolin-sdk-toutiao*.com,reject
 DOMAIN-WILDCARD,lf*-ad-union-sdk.pglstatp-toutiao.com,reject
 DOMAIN-WILDCARD,p*-ad-sign.byteimg.com,reject
 # DOMAIN-WILDCARD,p*-novel.byteimg.com,reject // 可疑域名，待验证
 # DOMAIN-WILDCARD,p*-webcast-sign.douyinpic.com,reject
-# DOMAIN-WILDCARD,pull-*.douyincdn.com,reject     全球直连
+# DOMAIN-WILDCARD,pull-*.douyincdn.com,reject
 
 # >> Zijie AD API
 DOMAIN-WILDCARD,abtest*-misc-lf.zijieapi.com,reject
@@ -35,17 +35,22 @@ DOMAIN-WILDCARD,bsync*-normal-lf.zijieapi.com,reject
 DOMAIN-WILDCARD,mssdk*-normal-lf.zijieapi.com,reject
 DOMAIN-WILDCARD,polaris*-normal-lf.zijieapi.com,reject
 DOMAIN-WILDCARD,tnc*-aliec*.zijieapi.com,reject
+DOMAIN-WILDCARD,tnc*-aliec2.zijieapi.com,reject
 DOMAIN-WILDCARD,tnc*-alisc*.zijieapi.com,reject
-DOMAIN,imapi5-oth-If.zijieapi.com,reject
-DOMAIN,rtapplog.zijieapi.com,reject
+DOMAIN-SUFFIX,tnc0-alisc1.zijieapi.com,reject
+DOMAIN-SUFFIX,imapi5-oth-If.zijieapi.com,reject
+DOMAIN-SUFFIX,rtapplog.zijieapi.com,reject
 
 # >> SNS SDK
-# DOMAIN,i.snssdk.com,reject
-# DOMAIN,i-lq.snssdk.com,reject
-# DOMAIN,is.snssdk.com,reject
-# DOMAIN,mcs.snssdk.com,reject
-# DOMAIN,vas-lf-x.snssdk.com,reject
-# DOMAIN-WILDCARD,tnc*-bjlgy.snssdk.com,reject
+DOMAIN-SUFFIX,ecomuser.snssdk.com,reject
+# DOMAIN-SUFFIX,i.snssdk.com,reject
+DOMAIN-SUFFIX,i-lq.snssdk.com,reject
+# DOMAIN-SUFFIX,is.snssdk.com,reject
+DOMAIN-SUFFIX,mcs.snssdk.com,reject
+DOMAIN-SUFFIX,vas.snssdk.com,reject
+DOMAIN-SUFFIX,vas-lf-x.snssdk.com,reject
+DOMAIN-SUFFIX,tnc3-bjlgy.snssdk.com,reject
+DOMAIN-WILDCARD,tnc*-bjlgy.snssdk.com,reject
 
 # >> Other Domains
 DOMAIN-WILDCARD,*novelapp.ixigua.com,reject
@@ -55,16 +60,17 @@ DOMAIN,activity-ag.awemeughun.com,reject
 DOMAIN,activity-zhendingtech.com,reject
 DOMAIN,dig.bdurl.net,reject
 DOMAIN,msync-im1-vip6-std.easemob.com,reject
-# DOMAIN,security-lq.snssdk.com,reject
+DOMAIN,security-lq.snssdk.com,reject
 DOMAIN,sf3-ttcdn-tos.pstatp.com,reject
 DOMAIN-SUFFIX,lf-normal-gr-sourcecdn.bytegecko.com,reject
 
 # >> Other AD SDK
-# DOMAIN,mktm.jd.com,reject
-# DOMAIN,adim.pinduoduo.com,reject
-# DOMAIN,apm-m.pinduoduo.com,reject
-# DOMAIN,shark-tracer.netease.com,reject
-
+DOMAIN,mktm.jd.com,reject
+DOMAIN,im-x.jd.com,reject
+DOMAIN,adim.pinduoduo.com,reject
+DOMAIN,apm-m.pinduoduo.com,reject
+DOMAIN,shark-tracer.netease.com,reject
+DOMAIN,wcp.taobao.com,reject
 
 # >> IP-CIDR
 # ip-cidr,49.71.37.101/32,reject
